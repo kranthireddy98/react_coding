@@ -1,0 +1,39 @@
+.background-container {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 200px;
+}
+
+.button1 {
+  background-color: blue;
+  border-radius: 8px;
+  color: aliceblue;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.button2 {
+  background-color: transparent;
+  color: aliceblue;
+  border: solid 2px wheat;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  outline: none;
+}
+@media (max-width: 576px) {
+  .background-container {
+    width: 500px;
+  }
+}
