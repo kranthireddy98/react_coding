@@ -1,0 +1,29 @@
+* {
+  border: 0;
+  font-family: Roboto;
+}
+.backGroundContainer {
+  background-color: #afbcc5;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.spanned {
+  text-align: center;
+  align-self: center;
+  margin-left: 150px;
+  color: #c20a72;
+}
+.heading {
+  height: 100px;
+}
+
+.button {
+  padding: 10px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
