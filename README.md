@@ -1,2 +1,2 @@
 # react_coding
-react cosing practices of NxtWave
+react coding practices of NxtWave
