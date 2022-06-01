@@ -1,0 +1,32 @@
+.back-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Roboto;
+}
+
+p {
+  color: #1e293b;
+  font-family: Roboto;
+  font-weight: 500;
+}
+button {
+  border: solid 1px black;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-weight: 500;
+}
