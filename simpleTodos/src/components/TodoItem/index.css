@@ -1,0 +1,22 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 10px;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #ffffff;
+  border: solid 1px #ff0b37;
+  border-radius: 10px;
+  padding: 8px;
+  width: 100px;
+  font-weight: 600;
+  color: #ff0b37;
+}
+p {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+}
