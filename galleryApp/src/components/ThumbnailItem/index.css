@@ -1,0 +1,12 @@
+/* Write your code here. */
+.thumbnail {
+  margin: 10px;
+  opacity: 0.5;
+}
+.reduce-opacity {
+  opacity: 1;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
