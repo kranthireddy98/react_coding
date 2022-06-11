@@ -1,0 +1,30 @@
+.background-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  font-family: Roboto;
+  width: 460px;
+}
+#select {
+  height: 30px;
+  width: 150px;
+  font-family: Roboto;
+  border-radius: 4px;
+  font-weight: 800;
+  margin-right: 8px;
+}
+.country {
+  font-size: 30px;
+  font-weight: 600;
+}
+.isCapital {
+  display: inline;
+}
