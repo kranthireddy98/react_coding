@@ -57,12 +57,9 @@ class App extends Component {
 
   deletePassword = id => {
     const {passwordList} = this.state
-    const updatedPasswordList = passwordList.filter(
-      eachTransaction => eachTransaction.id !== id,
-    )
 
     this.setState({
-      passwordList: updatedPasswordList,
+      passwordList: passwordList.filter(each => each.id !== id),
     })
   }
 
