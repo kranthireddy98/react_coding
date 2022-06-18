@@ -1,0 +1,21 @@
+.background-container {
+  background-color: #d7dae6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  background-color: white;
+  margin: 20px;
+  border-radius: 12px;
+  width: 800px;
+}
+.heading-container {
+  text-align: center;
+}
+.heading {
+  color: #cb8805;
+}
+.unOrder-list {
+  list-style: none;
+}
