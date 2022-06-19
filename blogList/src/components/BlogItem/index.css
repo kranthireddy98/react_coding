@@ -1,0 +1,11 @@
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: 'Roboto';
+}
+.blog-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
