@@ -1,0 +1,15 @@
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.user-profile-image {
+  width: 120px;
+}
+.user-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #616e7c;
+}
