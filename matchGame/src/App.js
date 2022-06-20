@@ -262,6 +262,10 @@ class App extends Component {
   }
 
   componentDidMount() {
+    this.onTimerChange()
+  }
+
+  onTimerChange = () => {
     this.myInterval = setInterval(() => {
       const {time} = this.state
 
@@ -288,7 +292,8 @@ class App extends Component {
       this.setState(prevState => ({score: prevState.score + 1}))
       this.setState({matchImage: imagesList[random].imageUrl})
     } else {
-      this.setState(prevState => ({view: !prevState.view}))
+      this.setState(prevState => ({view: !prevState.view, time: 0}))
+      clearInterval(this.myInterval)
     }
   }
 
@@ -299,6 +304,7 @@ class App extends Component {
       matchImage: imagesList[0].imageUrl,
       displayItem: tabsList[0].tabId,
     })
+    this.onTimerChange()
   }
 
   RenderScoreCard = () => {
